@@ -1,0 +1,15 @@
+{
+    "info":{
+        "name":{
+            "family":"KIM",
+            "given":"HS"
+        },
+        "addrs":[
+            {"addr1":"ABC","addr2":"CDE"}
+        ]
+    },
+    "membership":{
+        "grade": "GOLD",
+        "id": "12345"
+    }
+}

@@ -1,0 +1,20 @@
+{
+  "info":{
+    "name":{
+      "family":"Doe",
+      "given":"John",
+      "middle":"Siva"
+    },
+    "addrs":[
+      {"addr1":"AAA","addr2":"BBB"},
+      {"addr1":"123","addr2":"234"},
+      {"addr1":"ABC","addr2":"DEF"},
+      {"addr1":"GRACE","addr2":"HELLO"}
+    ]
+  },
+  "membership":{
+    "grade": "SILVER",
+    "id": "67890"
+  },
+  "age": "25"
+}

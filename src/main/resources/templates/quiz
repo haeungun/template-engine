@@ -1,0 +1,13 @@
+Quiz
+---------------------------------------
+<? for SUBJECT in QUIZ.subjects ?>
+Subject name: <?= SUBJECT.name ?>
+  <? for Q in SUBJECT.quizzes ?>
+    Q<?= Q.number ?>. <?= Q.question ?>
+      <? for OPTION in Q.options ?>
+        - [ ] <?= OPTION ?>
+      <? endfor ?>
+
+  <? endfor ?>
+---------------------------------------
+<? endfor ?>
